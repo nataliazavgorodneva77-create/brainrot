@@ -12,6 +12,7 @@ local whitelist = {
     "Alessandro_The8svc",
     "soul_reaper0746",
     "naimplays2016",
+    "tortichok1488",
     " jdp_jan6",
 }
 
