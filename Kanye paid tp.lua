@@ -15,6 +15,7 @@ local lp = player  -- Alias for compatibility
 local Whitelist = {
     "DontGetMeAngry_0",
     "crwvingcazslips",
+    "itznotrealreal",
     "SmtDivergent",
     "FrostyFrost_ieatglue",
     "SuitMeSaii",
