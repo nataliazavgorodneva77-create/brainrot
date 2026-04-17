@@ -6,6 +6,7 @@
 local whitelist = {
     "Zxyplo213",
     "poulet123445",
+    "itznotrealreal",
     "Mongralcba321",
     "RANE1167840",
     "Alessandro_The8svc",
