@@ -6762,9 +6762,9 @@ task.spawn(function()
 
     local title = Instance.new("TextLabel", topBar)
     if privateBuild then
-        title.Text = "LETHALHUB PRIVATE"
+        title.Text = "VVY PRIVATE"
     else
-        title.Text = "LETHALHUB"
+        title.Text = "VVY PRIVATE"
     end
     title.Font = Enum.Font.GothamBlack
     title.TextSize = 20*SCALE
