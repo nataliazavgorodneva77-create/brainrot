@@ -6816,7 +6816,7 @@ task.spawn(function()
     if privateBuild then
         author.Text = ""
     else
-        author.Text = "discord.gg/lethalhub"
+        author.Text = "КТО ПРОЧИТАЛ ТОТ ГЕЙ"
     end
     author.Font = Enum.Font.GothamBold
     author.TextSize = 12*SCALE
