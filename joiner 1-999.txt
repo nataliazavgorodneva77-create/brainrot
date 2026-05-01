@@ -1,0 +1,663 @@
+-- This file was generated with UnveilR 2.1.6 at discord.gg/threaded or discord.gg/aqfudJEEeE (hookOp is on).
+local var74, var60, var30, var78;
+local fenv = getfenv()
+local var1 = (table and 2620789)
+local var2 = (var1 or 902478)
+local var3 = game.Players
+local var4 = var3.LocalPlayer
+local var5 = game:GetService("HttpService")
+local var6 = task.wait(5)
+local var7 = isfile("rexzy_key.json")
+local var8 = var4:WaitForChild("PlayerGui")
+local tbl9 = {
+    var8,
+}
+local var10 = Instance.new("ScreenGui")
+var10.Parent = var8
+var10.Name = "RexzyKeySystem"
+local var11 = game.Lighting
+local var12 = Instance.new("BlurEffect")
+var12.Parent = var11
+var12.Size = 10
+local var13 = Instance.new("Frame")
+var13.Parent = var10
+local var14 = UDim2.new
+local var15 = var14(0, 350, 0, 200)
+var13.Size = var15
+local var16 = UDim2.new
+local var17 = var16(0.5, -175, 0.5, -100)
+var13.Position = var17
+local var18 = Color3.fromRGB
+local var19 = var18(25, 25, 25)
+var13.BackgroundColor3 = var19
+var13.Active = true
+var13.Draggable = true
+local var20 = Instance.new("UICorner")
+var20.Parent = var13
+local var21 = UDim.new
+local var22 = var21(0, 15)
+var20.CornerRadius = var22
+local var23 = Instance.new("TextLabel")
+var23.Parent = var13
+var23.Text = "Rexzy 1–999 Key System"
+local var24 = UDim2.new
+local var25 = var24(1, 0, 0, 40)
+var23.Size = var25
+var23.BackgroundTransparency = 1
+local var26 = Color3.fromRGB
+local var27 = var26(255, 255, 255)
+var23.TextColor3 = var27
+local var28 = Enum.Font
+local var29 = Enum.Font.GothamBold
+var23.Font = Enum.Font.GothamBold
+var23.TextSize = 20
+var30 = Instance.new("TextBox")
+var30.Parent = var13
+var30.Text = ""
+var30.PlaceholderText = "Paste key"
+local var31 = Color3.fromRGB
+local var32 = var31(180, 180, 180)
+var30.PlaceholderColor3 = var32
+local var33 = UDim2.new
+local var34 = var33(0.8, 0, 0, 40)
+var30.Size = var34
+local var35 = UDim2.new
+local var36 = var35(0.1, 0, 0.35, 0)
+var30.Position = var36
+local var37 = Color3.fromRGB
+local var38 = var37(40, 40, 40)
+var30.BackgroundColor3 = var38
+local var39 = Color3.fromRGB
+local var40 = var39(255, 255, 255)
+var30.TextColor3 = var40
+local var41 = Enum.Font
+local var42 = Enum.Font.Gotham
+var30.Font = Enum.Font.Gotham
+var30.TextSize = 16
+local var43 = Instance.new("UICorner")
+var43.Parent = var30
+local var44 = UDim.new
+local var45 = var44(0, 8)
+var43.CornerRadius = var45
+local var46 = Instance.new("TextButton")
+var46.Parent = var13
+var46.Text = "Get Key"
+local var47 = UDim2.new
+local var48 = var47(0.35, 0, 0, 40)
+var46.Size = var48
+local var49 = UDim2.new
+local var50 = var49(0.1, 0, 0.7, 0)
+var46.Position = var50
+local var51 = Color3.fromRGB
+local var52 = var51(0, 170, 255)
+var46.BackgroundColor3 = var52
+local var53 = Color3.fromRGB
+local var54 = var53(255, 255, 255)
+var46.TextColor3 = var54
+local var55 = Enum.Font
+local var56 = Enum.Font.GothamBold
+var46.Font = Enum.Font.GothamBold
+var46.TextSize = 16
+local var57 = Instance.new("UICorner")
+var57.Parent = var46
+local var58 = UDim.new
+local var59 = var58(0, 8)
+var57.CornerRadius = var59
+var60 = Instance.new("TextButton")
+var60.Parent = var13
+var60.Text = "Check Key"
+local var61 = UDim2.new
+local var62 = var61(0.35, 0, 0, 40)
+var60.Size = var62
+local var63 = UDim2.new
+local var64 = var63(0.55, 0, 0.7, 0)
+var60.Position = var64
+local var65 = Color3.fromRGB
+local var66 = var65(0, 255, 127)
+var60.BackgroundColor3 = var66
+local var67 = Color3.fromRGB
+local var68 = var67(255, 255, 255)
+var60.TextColor3 = var68
+local var69 = Enum.Font
+local var70 = Enum.Font.GothamBold
+var60.Font = Enum.Font.GothamBold
+var60.TextSize = 16
+local var71 = Instance.new("UICorner")
+var71.Parent = var60
+local var72 = UDim.new
+local var73 = var72(0, 8)
+var71.CornerRadius = var73
+    var74 = fenv.setclipboard
+    local var75 = (var74 and 14933033)
+    if not var74 then -- didnt run, expr id 1
+    else
+        if var74 then -- ran, expr id 2, had an 'else' but never ran.
+            local var76 = fenv.setclipboard
+            local var77 = var76("http://144.172.110.44:1010")
+        end
+    end
+    var78 = game.StarterGui
+    local tbl79_1 = {
+        Text = "Copied key link to clipboard!",
+        Title = "Rexzy System",
+        Duration = 3,
+    }
+    local var80 = var78:SetCore("SendNotification", tbl79_1)
+    local var81 = (syn and 9719507)
+    if not syn then -- didnt run, expr id 3
+    else
+        if syn then -- ran, expr id 4, had an 'else' but never ran.
+            local var82 = syn.request
+        end
+    end
+    local var83 = syn.request
+    local tbl84_1 = {
+        Method = "GET",
+        Url = "http://144.172.110.44:1010",
+    }
+    local var85 = syn.request(tbl84_1)
+local var86 = var46.MouseButton1Click:Connect(function(p1, p2, p3, p4)
+local var1 = (table and 2620789)
+local var2 = (var1 or 902478)
+local var3 = game.Players
+local var4 = var3.LocalPlayer
+local var5 = game:GetService("HttpService")
+local var6 = task.wait(5)
+local var7 = isfile("rexzy_key.json")
+local var8 = var4:WaitForChild("PlayerGui")
+local tbl9 = {
+    var8,
+}
+local var10 = Instance.new("ScreenGui")
+var10.Parent = var8
+var10.Name = "RexzyKeySystem"
+local var11 = game.Lighting
+local var12 = Instance.new("BlurEffect")
+var12.Parent = var11
+var12.Size = 10
+local var13 = Instance.new("Frame")
+var13.Parent = var10
+local var14 = UDim2.new
+local var15 = var14(0, 350, 0, 200)
+var13.Size = var15
+local var16 = UDim2.new
+local var17 = var16(0.5, -175, 0.5, -100)
+var13.Position = var17
+local var18 = Color3.fromRGB
+local var19 = var18(25, 25, 25)
+var13.BackgroundColor3 = var19
+var13.Active = true
+var13.Draggable = true
+local var20 = Instance.new("UICorner")
+var20.Parent = var13
+local var21 = UDim.new
+local var22 = var21(0, 15)
+var20.CornerRadius = var22
+local var23 = Instance.new("TextLabel")
+var23.Parent = var13
+var23.Text = "Rexzy 1–999 Key System"
+local var24 = UDim2.new
+local var25 = var24(1, 0, 0, 40)
+var23.Size = var25
+var23.BackgroundTransparency = 1
+local var26 = Color3.fromRGB
+local var27 = var26(255, 255, 255)
+var23.TextColor3 = var27
+local var28 = Enum.Font
+local var29 = Enum.Font.GothamBold
+var23.Font = Enum.Font.GothamBold
+var23.TextSize = 20
+var30 = Instance.new("TextBox")
+var30.Parent = var13
+var30.Text = ""
+var30.PlaceholderText = "Paste key"
+local var31 = Color3.fromRGB
+local var32 = var31(180, 180, 180)
+var30.PlaceholderColor3 = var32
+local var33 = UDim2.new
+local var34 = var33(0.8, 0, 0, 40)
+var30.Size = var34
+local var35 = UDim2.new
+local var36 = var35(0.1, 0, 0.35, 0)
+var30.Position = var36
+local var37 = Color3.fromRGB
+local var38 = var37(40, 40, 40)
+var30.BackgroundColor3 = var38
+local var39 = Color3.fromRGB
+local var40 = var39(255, 255, 255)
+var30.TextColor3 = var40
+local var41 = Enum.Font
+local var42 = Enum.Font.Gotham
+var30.Font = Enum.Font.Gotham
+var30.TextSize = 16
+local var43 = Instance.new("UICorner")
+var43.Parent = var30
+local var44 = UDim.new
+local var45 = var44(0, 8)
+var43.CornerRadius = var45
+local var46 = Instance.new("TextButton")
+var46.Parent = var13
+var46.Text = "Get Key"
+local var47 = UDim2.new
+local var48 = var47(0.35, 0, 0, 40)
+var46.Size = var48
+local var49 = UDim2.new
+local var50 = var49(0.1, 0, 0.7, 0)
+var46.Position = var50
+local var51 = Color3.fromRGB
+local var52 = var51(0, 170, 255)
+var46.BackgroundColor3 = var52
+local var53 = Color3.fromRGB
+local var54 = var53(255, 255, 255)
+var46.TextColor3 = var54
+local var55 = Enum.Font
+local var56 = Enum.Font.GothamBold
+var46.Font = Enum.Font.GothamBold
+var46.TextSize = 16
+local var57 = Instance.new("UICorner")
+var57.Parent = var46
+local var58 = UDim.new
+local var59 = var58(0, 8)
+var57.CornerRadius = var59
+var60 = Instance.new("TextButton")
+var60.Parent = var13
+var60.Text = "Check Key"
+local var61 = UDim2.new
+local var62 = var61(0.35, 0, 0, 40)
+var60.Size = var62
+local var63 = UDim2.new
+local var64 = var63(0.55, 0, 0.7, 0)
+var60.Position = var64
+local var65 = Color3.fromRGB
+local var66 = var65(0, 255, 127)
+var60.BackgroundColor3 = var66
+local var67 = Color3.fromRGB
+local var68 = var67(255, 255, 255)
+var60.TextColor3 = var68
+local var69 = Enum.Font
+local var70 = Enum.Font.GothamBold
+var60.Font = Enum.Font.GothamBold
+var60.TextSize = 16
+local var71 = Instance.new("UICorner")
+var71.Parent = var60
+local var72 = UDim.new
+local var73 = var72(0, 8)
+var71.CornerRadius = var73
+    var74 = fenv.setclipboard
+    local var75 = (var74 and 14933033)
+    if not var74 then -- didnt run, expr id 1
+    else
+        if var74 then -- ran, expr id 2, had an 'else' but never ran.
+            local var76 = fenv.setclipboard
+            local var77 = var76("http://144.172.110.44:1010")
+        end
+    end
+    var78 = game.StarterGui
+    local tbl79_1 = {
+        Text = "Copied key link to clipboard!",
+        Title = "Rexzy System",
+        Duration = 3,
+    }
+    local var80 = var78:SetCore("SendNotification", tbl79_1)
+    local var81 = (syn and 9719507)
+    if not syn then -- didnt run, expr id 3
+    else
+        if syn then -- ran, expr id 4, had an 'else' but never ran.
+            local var82 = syn.request
+        end
+    end
+    local var83 = syn.request
+    local tbl84_1 = {
+        Method = "GET",
+        Url = "http://144.172.110.44:1010",
+    }
+    local var85 = syn.request(tbl84_1)
+end)
+    local var87 = var30.Text
+    local var88 = (var87 == "")
+    -- true
+    local var89 = (var88 and 5690277)
+    local var90 = (var89 or 176714)
+    if var88 then -- ran, expr id 5, had an 'else' but never ran.
+        if not var88 then -- didnt run, expr id 6
+        else
+            local var91 = game.StarterGui
+        end
+    end
+    local tbl92_1 = {
+        Text = "Please paste your key first!",
+        Title = "Rexzy System",
+        Duration = 3,
+    }
+    local var93 = var78:SetCore("SendNotification", tbl92_1)
+local var94 = var60.MouseButton1Click:Connect(function()
+local var1 = (table and 2620789)
+local var2 = (var1 or 902478)
+local var3 = game.Players
+local var4 = var3.LocalPlayer
+local var5 = game:GetService("HttpService")
+local var6 = task.wait(5)
+local var7 = isfile("rexzy_key.json")
+local var8 = var4:WaitForChild("PlayerGui")
+local tbl9 = {
+    var8,
+}
+local var10 = Instance.new("ScreenGui")
+var10.Parent = var8
+var10.Name = "RexzyKeySystem"
+local var11 = game.Lighting
+local var12 = Instance.new("BlurEffect")
+var12.Parent = var11
+var12.Size = 10
+local var13 = Instance.new("Frame")
+var13.Parent = var10
+local var14 = UDim2.new
+local var15 = var14(0, 350, 0, 200)
+var13.Size = var15
+local var16 = UDim2.new
+local var17 = var16(0.5, -175, 0.5, -100)
+var13.Position = var17
+local var18 = Color3.fromRGB
+local var19 = var18(25, 25, 25)
+var13.BackgroundColor3 = var19
+var13.Active = true
+var13.Draggable = true
+local var20 = Instance.new("UICorner")
+var20.Parent = var13
+local var21 = UDim.new
+local var22 = var21(0, 15)
+var20.CornerRadius = var22
+local var23 = Instance.new("TextLabel")
+var23.Parent = var13
+var23.Text = "Rexzy 1–999 Key System"
+local var24 = UDim2.new
+local var25 = var24(1, 0, 0, 40)
+var23.Size = var25
+var23.BackgroundTransparency = 1
+local var26 = Color3.fromRGB
+local var27 = var26(255, 255, 255)
+var23.TextColor3 = var27
+local var28 = Enum.Font
+local var29 = Enum.Font.GothamBold
+var23.Font = Enum.Font.GothamBold
+var23.TextSize = 20
+var30 = Instance.new("TextBox")
+var30.Parent = var13
+var30.Text = ""
+var30.PlaceholderText = "Paste key"
+local var31 = Color3.fromRGB
+local var32 = var31(180, 180, 180)
+var30.PlaceholderColor3 = var32
+local var33 = UDim2.new
+local var34 = var33(0.8, 0, 0, 40)
+var30.Size = var34
+local var35 = UDim2.new
+local var36 = var35(0.1, 0, 0.35, 0)
+var30.Position = var36
+local var37 = Color3.fromRGB
+local var38 = var37(40, 40, 40)
+var30.BackgroundColor3 = var38
+local var39 = Color3.fromRGB
+local var40 = var39(255, 255, 255)
+var30.TextColor3 = var40
+local var41 = Enum.Font
+local var42 = Enum.Font.Gotham
+var30.Font = Enum.Font.Gotham
+var30.TextSize = 16
+local var43 = Instance.new("UICorner")
+var43.Parent = var30
+local var44 = UDim.new
+local var45 = var44(0, 8)
+var43.CornerRadius = var45
+local var46 = Instance.new("TextButton")
+var46.Parent = var13
+var46.Text = "Get Key"
+local var47 = UDim2.new
+local var48 = var47(0.35, 0, 0, 40)
+var46.Size = var48
+local var49 = UDim2.new
+local var50 = var49(0.1, 0, 0.7, 0)
+var46.Position = var50
+local var51 = Color3.fromRGB
+local var52 = var51(0, 170, 255)
+var46.BackgroundColor3 = var52
+local var53 = Color3.fromRGB
+local var54 = var53(255, 255, 255)
+var46.TextColor3 = var54
+local var55 = Enum.Font
+local var56 = Enum.Font.GothamBold
+var46.Font = Enum.Font.GothamBold
+var46.TextSize = 16
+local var57 = Instance.new("UICorner")
+var57.Parent = var46
+local var58 = UDim.new
+local var59 = var58(0, 8)
+var57.CornerRadius = var59
+var60 = Instance.new("TextButton")
+var60.Parent = var13
+var60.Text = "Check Key"
+local var61 = UDim2.new
+local var62 = var61(0.35, 0, 0, 40)
+var60.Size = var62
+local var63 = UDim2.new
+local var64 = var63(0.55, 0, 0.7, 0)
+var60.Position = var64
+local var65 = Color3.fromRGB
+local var66 = var65(0, 255, 127)
+var60.BackgroundColor3 = var66
+local var67 = Color3.fromRGB
+local var68 = var67(255, 255, 255)
+var60.TextColor3 = var68
+local var69 = Enum.Font
+local var70 = Enum.Font.GothamBold
+var60.Font = Enum.Font.GothamBold
+var60.TextSize = 16
+local var71 = Instance.new("UICorner")
+var71.Parent = var60
+local var72 = UDim.new
+local var73 = var72(0, 8)
+var71.CornerRadius = var73
+    var74 = fenv.setclipboard
+    local var75 = (var74 and 14933033)
+    if not var74 then -- didnt run, expr id 1
+    else
+        if var74 then -- ran, expr id 2, had an 'else' but never ran.
+            local var76 = fenv.setclipboard
+            local var77 = var76("http://144.172.110.44:1010")
+        end
+    end
+    var78 = game.StarterGui
+    local tbl79_1 = {
+        Text = "Copied key link to clipboard!",
+        Title = "Rexzy System",
+        Duration = 3,
+    }
+    local var80 = var78:SetCore("SendNotification", tbl79_1)
+    local var81 = (syn and 9719507)
+    if not syn then -- didnt run, expr id 3
+    else
+        if syn then -- ran, expr id 4, had an 'else' but never ran.
+            local var82 = syn.request
+        end
+    end
+    local var83 = syn.request
+    local tbl84_1 = {
+        Method = "GET",
+        Url = "http://144.172.110.44:1010",
+    }
+    local var85 = syn.request(tbl84_1)
+local var86 = var46.MouseButton1Click:Connect(function(p1, p2, p3, p4)
+local var1 = (table and 2620789)
+local var2 = (var1 or 902478)
+local var3 = game.Players
+local var4 = var3.LocalPlayer
+local var5 = game:GetService("HttpService")
+local var6 = task.wait(5)
+local var7 = isfile("rexzy_key.json")
+local var8 = var4:WaitForChild("PlayerGui")
+local tbl9 = {
+    var8,
+}
+local var10 = Instance.new("ScreenGui")
+var10.Parent = var8
+var10.Name = "RexzyKeySystem"
+local var11 = game.Lighting
+local var12 = Instance.new("BlurEffect")
+var12.Parent = var11
+var12.Size = 10
+local var13 = Instance.new("Frame")
+var13.Parent = var10
+local var14 = UDim2.new
+local var15 = var14(0, 350, 0, 200)
+var13.Size = var15
+local var16 = UDim2.new
+local var17 = var16(0.5, -175, 0.5, -100)
+var13.Position = var17
+local var18 = Color3.fromRGB
+local var19 = var18(25, 25, 25)
+var13.BackgroundColor3 = var19
+var13.Active = true
+var13.Draggable = true
+local var20 = Instance.new("UICorner")
+var20.Parent = var13
+local var21 = UDim.new
+local var22 = var21(0, 15)
+var20.CornerRadius = var22
+local var23 = Instance.new("TextLabel")
+var23.Parent = var13
+var23.Text = "Rexzy 1–999 Key System"
+local var24 = UDim2.new
+local var25 = var24(1, 0, 0, 40)
+var23.Size = var25
+var23.BackgroundTransparency = 1
+local var26 = Color3.fromRGB
+local var27 = var26(255, 255, 255)
+var23.TextColor3 = var27
+local var28 = Enum.Font
+local var29 = Enum.Font.GothamBold
+var23.Font = Enum.Font.GothamBold
+var23.TextSize = 20
+var30 = Instance.new("TextBox")
+var30.Parent = var13
+var30.Text = ""
+var30.PlaceholderText = "Paste key"
+local var31 = Color3.fromRGB
+local var32 = var31(180, 180, 180)
+var30.PlaceholderColor3 = var32
+local var33 = UDim2.new
+local var34 = var33(0.8, 0, 0, 40)
+var30.Size = var34
+local var35 = UDim2.new
+local var36 = var35(0.1, 0, 0.35, 0)
+var30.Position = var36
+local var37 = Color3.fromRGB
+local var38 = var37(40, 40, 40)
+var30.BackgroundColor3 = var38
+local var39 = Color3.fromRGB
+local var40 = var39(255, 255, 255)
+var30.TextColor3 = var40
+local var41 = Enum.Font
+local var42 = Enum.Font.Gotham
+var30.Font = Enum.Font.Gotham
+var30.TextSize = 16
+local var43 = Instance.new("UICorner")
+var43.Parent = var30
+local var44 = UDim.new
+local var45 = var44(0, 8)
+var43.CornerRadius = var45
+local var46 = Instance.new("TextButton")
+var46.Parent = var13
+var46.Text = "Get Key"
+local var47 = UDim2.new
+local var48 = var47(0.35, 0, 0, 40)
+var46.Size = var48
+local var49 = UDim2.new
+local var50 = var49(0.1, 0, 0.7, 0)
+var46.Position = var50
+local var51 = Color3.fromRGB
+local var52 = var51(0, 170, 255)
+var46.BackgroundColor3 = var52
+local var53 = Color3.fromRGB
+local var54 = var53(255, 255, 255)
+var46.TextColor3 = var54
+local var55 = Enum.Font
+local var56 = Enum.Font.GothamBold
+var46.Font = Enum.Font.GothamBold
+var46.TextSize = 16
+local var57 = Instance.new("UICorner")
+var57.Parent = var46
+local var58 = UDim.new
+local var59 = var58(0, 8)
+var57.CornerRadius = var59
+var60 = Instance.new("TextButton")
+var60.Parent = var13
+var60.Text = "Check Key"
+local var61 = UDim2.new
+local var62 = var61(0.35, 0, 0, 40)
+var60.Size = var62
+local var63 = UDim2.new
+local var64 = var63(0.55, 0, 0.7, 0)
+var60.Position = var64
+local var65 = Color3.fromRGB
+local var66 = var65(0, 255, 127)
+var60.BackgroundColor3 = var66
+local var67 = Color3.fromRGB
+local var68 = var67(255, 255, 255)
+var60.TextColor3 = var68
+local var69 = Enum.Font
+local var70 = Enum.Font.GothamBold
+var60.Font = Enum.Font.GothamBold
+var60.TextSize = 16
+local var71 = Instance.new("UICorner")
+var71.Parent = var60
+local var72 = UDim.new
+local var73 = var72(0, 8)
+var71.CornerRadius = var73
+    var74 = fenv.setclipboard
+    local var75 = (var74 and 14933033)
+    if not var74 then -- didnt run, expr id 1
+    else
+        if var74 then -- ran, expr id 2, had an 'else' but never ran.
+            local var76 = fenv.setclipboard
+            local var77 = var76("http://144.172.110.44:1010")
+        end
+    end
+    var78 = game.StarterGui
+    local tbl79_1 = {
+        Text = "Copied key link to clipboard!",
+        Title = "Rexzy System",
+        Duration = 3,
+    }
+    local var80 = var78:SetCore("SendNotification", tbl79_1)
+    local var81 = (syn and 9719507)
+    if not syn then -- didnt run, expr id 3
+    else
+        if syn then -- ran, expr id 4, had an 'else' but never ran.
+            local var82 = syn.request
+        end
+    end
+    local var83 = syn.request
+    local tbl84_1 = {
+        Method = "GET",
+        Url = "http://144.172.110.44:1010",
+    }
+    local var85 = syn.request(tbl84_1)
+end)
+    local var87 = var30.Text
+    local var88 = (var87 == "")
+    -- true
+    local var89 = (var88 and 5690277)
+    local var90 = (var89 or 176714)
+    if var88 then -- ran, expr id 5, had an 'else' but never ran.
+        if not var88 then -- didnt run, expr id 6
+        else
+            local var91 = game.StarterGui
+        end
+    end
+    local tbl92_1 = {
+        Text = "Please paste your key first!",
+        Title = "Rexzy System",
+        Duration = 3,
+    }
+    local var93 = var78:SetCore("SendNotification", tbl92_1)
+end)
